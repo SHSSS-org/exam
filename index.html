@@ -646,6 +646,7 @@
                 <div class="calendar-day empty"></div>
             </div>
         </section>
+        The Syllabus shown here is just a sample not correct version 
 
         <!-- Exam Details Section -->
         <section class="exam-details" id="examDetails">
@@ -746,100 +747,271 @@
         
         // Exam data for different dates and grades
         const examData = {
-  "2025-09-01": {
-    "Physics": {
-      "11": {
-        "title": "Physics Test - Grade 11",
-        "syllabus": [
-          "2. Units and Measurement",
-          "3. Motion in a Straight Line"
-        ],
-        "video": "https://www.youtube.com/embed/WF8Ddf5l7yE",
-        "formulas": [
-          "v = u + at",
-          "s = ut + ½at²",
-          "v² - u² = 2as"
-        ]
-      },
-      "12": {
-        "title": "Physics Test - Grade 12",
-        "syllabus": [
-          "1. Electric Charges and Fields",
-          "2. Electrostatic Potential and Capacitance",
-          "3. Current Electricity"
-        ],
-        "video": "https://www.youtube.com/embed/1oQcCYYKAzs",
-        "formulas": [
-          "F = qE",
-          "V = IR",
-          "P = VI"
-        ]
-      }
-    },
-    "Accountancy": {
-      "11": {
-        "title": "Accountancy Test - Grade 11",
-        "syllabus": [
-          "1. Introduction to Accounting",
-          "2. Theory Base of Accounting",
-          "3. Recording of Transactions – I",
-          "4. Recording of Transactions – II",
-          "5. Bank Reconciliation Statement",
-          "6. Trial Balance and Rectification of Errors",
-          "7. Depreciation, Provisions and Reserves",
-          "8. Bills of Exchange",
-          "9. Financial Statements – I",
-          "10. Financial Statements – II"
-        ],
-        "video": "",
-        "formulas": [
-          "Assets = Liabilities + Capital",
-          "Profit = Revenue - Expenses"
-        ]
-      },
-      "12": {
-        "title": "Accountancy Test - Grade 12",
-        "syllabus": [
-          "1. Accounting for Not-for-Profit Organisation",
-          "2. Accounting for Partnership Firms – Fundamentals",
-          "3. Reconstitution of a Partnership Firm – Admission of a Partner",
-          "4. Reconstitution of a Partnership Firm – Retirement/Death of a Partner",
-          "5. Dissolution of Partnership Firm",
-          "6. Accounting for Share Capital",
-          "7. Issue and Redemption of Debentures"
-        ],
-        "video": "",
-        "formulas": [
-          "Current Ratio = Current Assets / Current Liabilities",
-          "Debt-Equity Ratio = Debt / Equity"
-        ]
-      }
-    },
-    "History": {
-      "11": {
-        "title": "History Test - Grade 11",
-        "syllabus": [
-          "1. From the Beginning of Time",
-          "2. Writing and City Life"
-        ],
-        "video": "",
-        "notes": []
-      },
-      "12": {
-        "title": "History Test - Grade 12",
-        "syllabus": [
-          "1. Bricks, Beads and Bones — The Harappan Civilisation",
-          "2. Kings, Farmers and Towns — Early States and Economies",
-          "3. Kinship, Caste and Class — Early Societies",
-          "4. Thinkers, Beliefs and Buildings — Cultural Developments"
-        ],
-        "video": "",
-        "notes": []
-      }
-    }
-  }
-
+            "2025-09-01": {
+                "11": {
+                    title: "Chemistry Quiz - Grade 11",
+                    syllabus: [
+                        "Some Basic Concepts of Chemistry",
+                        "Structure of Atom",
+                        "Classification of Elements and Periodicity in Properties",
+                        "Chemical Bonding and Molecular Structure",
+                        "States of Matter: Gases and Liquids",
+                        "Thermodynamics",
+                        "Equilibrium"
+                    ],
+                    video: "https://www.youtube.com/embed/3nAcs0luv64",
+                    formulas: [
+                        "PV = nRT",
+                        "E = mc²",
+                        "λ = h/p",
+                        "K = [Products]/[Reactants]",
+                        "pH = -log[H⁺]",
+                        "ΔG = ΔH - TΔS"
+                    ]
+                },
+                "12": {
+                    title: "Chemistry Quiz - Grade 12",
+                    syllabus: [
+                        "The Solid State",
+                        "Solutions",
+                        "Electrochemistry",
+                        "Chemical Kinetics",
+                        "Surface Chemistry",
+                        "General Principles and Processes of Isolation of Elements",
+                        "The p-Block Elements"
+                    ],
+                    video: "https://www.youtube.com/embed/5i1kr2f2S2I",
+                    formulas: [
+                        "Raoult's Law: P = X·P°",
+                        "ΔT = K·m",
+                        "Faraday's Law: m = ZIt",
+                        "Rate = k[A]^m[B]^n",
+                        "Langmuir Isotherm: θ = KP/(1+KP)",
+                        "Nernst Equation: E = E° - (RT/nF)lnQ"
+                    ]
+                }
+            },
+            "2023-09-02": {
+                "11": {
+                    title: "Chemistry Quiz - Grade 11",
+                    syllabus: [
+                        "Some Basic Concepts of Chemistry",
+                        "Structure of Atom",
+                        "Classification of Elements and Periodicity in Properties",
+                        "Chemical Bonding and Molecular Structure",
+                        "States of Matter: Gases and Liquids",
+                        "Thermodynamics",
+                        "Equilibrium"
+                    ],
+                    video: "https://www.youtube.com/embed/3nAcs0luv64",
+                    formulas: [
+                        "PV = nRT",
+                        "E = mc²",
+                        "λ = h/p",
+                        "K = [Products]/[Reactants]",
+                        "pH = -log[H⁺]",
+                        "ΔG = ΔH - TΔS"
+                    ]
+                },
+                "12": {
+                    title: "Chemistry Quiz - Grade 12",
+                    syllabus: [
+                        "The Solid State",
+                        "Solutions",
+                        "Electrochemistry",
+                        "Chemical Kinetics",
+                        "Surface Chemistry",
+                        "General Principles and Processes of Isolation of Elements",
+                        "The p-Block Elements"
+                    ],
+                    video: "https://www.youtube.com/embed/5i1kr2f2S2I",
+                    formulas: [
+                        "Raoult's Law: P = X·P°",
+                        "ΔT = K·m",
+                        "Faraday's Law: m = ZIt",
+                        "Rate = k[A]^m[B]^n",
+                        "Langmuir Isotherm: θ = KP/(1+KP)",
+                        "Nernst Equation: E = E° - (RT/nF)lnQ"
+                    ]
+                }
+            },
+            "2023-09-03": {
+                "11": {
+                    title: "Chemistry Quiz - Grade 11",
+                    syllabus: [
+                        "Some Basic Concepts of Chemistry",
+                        "Structure of Atom",
+                        "Classification of Elements and Periodicity in Properties",
+                        "Chemical Bonding and Molecular Structure",
+                        "States of Matter: Gases and Liquids",
+                        "Thermodynamics",
+                        "Equilibrium"
+                    ],
+                    video: "https://www.youtube.com/embed/3nAcs0luv64",
+                    formulas: [
+                        "PV = nRT",
+                        "E = mc²",
+                        "λ = h/p",
+                        "K = [Products]/[Reactants]",
+                        "pH = -log[H⁺]",
+                        "ΔG = ΔH - TΔS"
+                    ]
+                },
+                "12": {
+                    title: "Chemistry Quiz - Grade 12",
+                    syllabus: [
+                        "The Solid State",
+                        "Solutions",
+                        "Electrochemistry",
+                        "Chemical Kinetics",
+                        "Surface Chemistry",
+                        "General Principles and Processes of Isolation of Elements",
+                        "The p-Block Elements"
+                    ],
+                    video: "https://www.youtube.com/embed/5i1kr2f2S2I",
+                    formulas: [
+                        "Raoult's Law: P = X·P°",
+                        "ΔT = K·m",
+                        "Faraday's Law: m = ZIt",
+                        "Rate = k[A]^m[B]^n",
+                        "Langmuir Isotherm: θ = KP/(1+KP)",
+                        "Nernst Equation: E = E° - (RT/nF)lnQ"
+                    ]
+                }
+            },
             "2023-09-04": {
+                "11": {
+                    title: "Chemistry Quiz - Grade 11",
+                    syllabus: [
+                        "Some Basic Concepts of Chemistry",
+                        "Structure of Atom",
+                        "Classification of Elements and Periodicity in Properties",
+                        "Chemical Bonding and Molecular Structure",
+                        "States of Matter: Gases and Liquids",
+                        "Thermodynamics",
+                        "Equilibrium"
+                    ],
+                    video: "https://www.youtube.com/embed/3nAcs0luv64",
+                    formulas: [
+                        "PV = nRT",
+                        "E = mc²",
+                        "λ = h/p",
+                        "K = [Products]/[Reactants]",
+                        "pH = -log[H⁺]",
+                        "ΔG = ΔH - TΔS"
+                    ]
+                },
+                "12": {
+                    title: "Chemistry Quiz - Grade 12",
+                    syllabus: [
+                        "The Solid State",
+                        "Solutions",
+                        "Electrochemistry",
+                        "Chemical Kinetics",
+                        "Surface Chemistry",
+                        "General Principles and Processes of Isolation of Elements",
+                        "The p-Block Elements"
+                    ],
+                    video: "https://www.youtube.com/embed/5i1kr2f2S2I",
+                    formulas: [
+                        "Raoult's Law: P = X·P°",
+                        "ΔT = K·m",
+                        "Faraday's Law: m = ZIt",
+                        "Rate = k[A]^m[B]^n",
+                        "Langmuir Isotherm: θ = KP/(1+KP)",
+                        "Nernst Equation: E = E° - (RT/nF)lnQ"
+                    ]
+                }
+            },
+            "2023-09-05": {
+                "11": {
+                    title: "Chemistry Quiz - Grade 11",
+                    syllabus: [
+                        "Some Basic Concepts of Chemistry",
+                        "Structure of Atom",
+                        "Classification of Elements and Periodicity in Properties",
+                        "Chemical Bonding and Molecular Structure",
+                        "States of Matter: Gases and Liquids",
+                        "Thermodynamics",
+                        "Equilibrium"
+                    ],
+                    video: "https://www.youtube.com/embed/3nAcs0luv64",
+                    formulas: [
+                        "PV = nRT",
+                        "E = mc²",
+                        "λ = h/p",
+                        "K = [Products]/[Reactants]",
+                        "pH = -log[H⁺]",
+                        "ΔG = ΔH - TΔS"
+                    ]
+                },
+                "12": {
+                    title: "Chemistry Quiz - Grade 12",
+                    syllabus: [
+                        "The Solid State",
+                        "Solutions",
+                        "Electrochemistry",
+                        "Chemical Kinetics",
+                        "Surface Chemistry",
+                        "General Principles and Processes of Isolation of Elements",
+                        "The p-Block Elements"
+                    ],
+                    video: "https://www.youtube.com/embed/5i1kr2f2S2I",
+                    formulas: [
+                        "Raoult's Law: P = X·P°",
+                        "ΔT = K·m",
+                        "Faraday's Law: m = ZIt",
+                        "Rate = k[A]^m[B]^n",
+                        "Langmuir Isotherm: θ = KP/(1+KP)",
+                        "Nernst Equation: E = E° - (RT/nF)lnQ"
+                    ]
+                }
+            },
+            "2023-09-06": {
+                "11": {
+                    title: "Chemistry Quiz - Grade 11",
+                    syllabus: [
+                        "Some Basic Concepts of Chemistry",
+                        "Structure of Atom",
+                        "Classification of Elements and Periodicity in Properties",
+                        "Chemical Bonding and Molecular Structure",
+                        "States of Matter: Gases and Liquids",
+                        "Thermodynamics",
+                        "Equilibrium"
+                    ],
+                    video: "https://www.youtube.com/embed/3nAcs0luv64",
+                    formulas: [
+                        "PV = nRT",
+                        "E = mc²",
+                        "λ = h/p",
+                        "K = [Products]/[Reactants]",
+                        "pH = -log[H⁺]",
+                        "ΔG = ΔH - TΔS"
+                    ]
+                },
+                "12": {
+                    title: "Chemistry Quiz - Grade 12",
+                    syllabus: [
+                        "The Solid State",
+                        "Solutions",
+                        "Electrochemistry",
+                        "Chemical Kinetics",
+                        "Surface Chemistry",
+                        "General Principles and Processes of Isolation of Elements",
+                        "The p-Block Elements"
+                    ],
+                    video: "https://www.youtube.com/embed/5i1kr2f2S2I",
+                    formulas: [
+                        "Raoult's Law: P = X·P°",
+                        "ΔT = K·m",
+                        "Faraday's Law: m = ZIt",
+                        "Rate = k[A]^m[B]^n",
+                        "Langmuir Isotherm: θ = KP/(1+KP)",
+                        "Nernst Equation: E = E° - (RT/nF)lnQ"
+                    ]
+                }
+            },
+            "2023-09-07": {
                 "11": {
                     title: "Chemistry Quiz - Grade 11",
                     syllabus: [
@@ -927,7 +1099,139 @@
                     ]
                 }
             },
-            "2023-09-18": {
+            "2023-09-09": {
+                "11": {
+                    title: "Chemistry Quiz - Grade 11",
+                    syllabus: [
+                        "Some Basic Concepts of Chemistry",
+                        "Structure of Atom",
+                        "Classification of Elements and Periodicity in Properties",
+                        "Chemical Bonding and Molecular Structure",
+                        "States of Matter: Gases and Liquids",
+                        "Thermodynamics",
+                        "Equilibrium"
+                    ],
+                    video: "https://www.youtube.com/embed/3nAcs0luv64",
+                    formulas: [
+                        "PV = nRT",
+                        "E = mc²",
+                        "λ = h/p",
+                        "K = [Products]/[Reactants]",
+                        "pH = -log[H⁺]",
+                        "ΔG = ΔH - TΔS"
+                    ]
+                },
+                "12": {
+                    title: "Chemistry Quiz - Grade 12",
+                    syllabus: [
+                        "The Solid State",
+                        "Solutions",
+                        "Electrochemistry",
+                        "Chemical Kinetics",
+                        "Surface Chemistry",
+                        "General Principles and Processes of Isolation of Elements",
+                        "The p-Block Elements"
+                    ],
+                    video: "https://www.youtube.com/embed/5i1kr2f2S2I",
+                    formulas: [
+                        "Raoult's Law: P = X·P°",
+                        "ΔT = K·m",
+                        "Faraday's Law: m = ZIt",
+                        "Rate = k[A]^m[B]^n",
+                        "Langmuir Isotherm: θ = KP/(1+KP)",
+                        "Nernst Equation: E = E° - (RT/nF)lnQ"
+                    ]
+                }
+            },
+            "2023-09-10": {
+                "11": {
+                    title: "Chemistry Quiz - Grade 11",
+                    syllabus: [
+                        "Some Basic Concepts of Chemistry",
+                        "Structure of Atom",
+                        "Classification of Elements and Periodicity in Properties",
+                        "Chemical Bonding and Molecular Structure",
+                        "States of Matter: Gases and Liquids",
+                        "Thermodynamics",
+                        "Equilibrium"
+                    ],
+                    video: "https://www.youtube.com/embed/3nAcs0luv64",
+                    formulas: [
+                        "PV = nRT",
+                        "E = mc²",
+                        "λ = h/p",
+                        "K = [Products]/[Reactants]",
+                        "pH = -log[H⁺]",
+                        "ΔG = ΔH - TΔS"
+                    ]
+                },
+                "12": {
+                    title: "Chemistry Quiz - Grade 12",
+                    syllabus: [
+                        "The Solid State",
+                        "Solutions",
+                        "Electrochemistry",
+                        "Chemical Kinetics",
+                        "Surface Chemistry",
+                        "General Principles and Processes of Isolation of Elements",
+                        "The p-Block Elements"
+                    ],
+                    video: "https://www.youtube.com/embed/5i1kr2f2S2I",
+                    formulas: [
+                        "Raoult's Law: P = X·P°",
+                        "ΔT = K·m",
+                        "Faraday's Law: m = ZIt",
+                        "Rate = k[A]^m[B]^n",
+                        "Langmuir Isotherm: θ = KP/(1+KP)",
+                        "Nernst Equation: E = E° - (RT/nF)lnQ"
+                    ]
+                }
+            },
+            "2023-09-11": {
+                "11": {
+                    title: "Chemistry Quiz - Grade 11",
+                    syllabus: [
+                        "Some Basic Concepts of Chemistry",
+                        "Structure of Atom",
+                        "Classification of Elements and Periodicity in Properties",
+                        "Chemical Bonding and Molecular Structure",
+                        "States of Matter: Gases and Liquids",
+                        "Thermodynamics",
+                        "Equilibrium"
+                    ],
+                    video: "https://www.youtube.com/embed/3nAcs0luv64",
+                    formulas: [
+                        "PV = nRT",
+                        "E = mc²",
+                        "λ = h/p",
+                        "K = [Products]/[Reactants]",
+                        "pH = -log[H⁺]",
+                        "ΔG = ΔH - TΔS"
+                    ]
+                },
+                "12": {
+                    title: "Chemistry Quiz - Grade 12",
+                    syllabus: [
+                        "The Solid State",
+                        "Solutions",
+                        "Electrochemistry",
+                        "Chemical Kinetics",
+                        "Surface Chemistry",
+                        "General Principles and Processes of Isolation of Elements",
+                        "The p-Block Elements"
+                    ],
+                    video: "https://www.youtube.com/embed/5i1kr2f2S2I",
+                    formulas: [
+                        "Raoult's Law: P = X·P°",
+                        "ΔT = K·m",
+                        "Faraday's Law: m = ZIt",
+                        "Rate = k[A]^m[B]^n",
+                        "Langmuir Isotherm: θ = KP/(1+KP)",
+                        "Nernst Equation: E = E° - (RT/nF)lnQ"
+                    ]
+                }
+            },
+            "2023-09-12": {
                 "11": {
                     title: "Mathematics Mid-Term - Grade 11",
                     syllabus: [
